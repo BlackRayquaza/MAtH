@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Math", "Math\Math.csproj", "{A01C6476-B7C5-4BAB-B9CB-A3919021F713}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ROTMG_Stats", "ROTMG_Stats\ROTMG_Stats.csproj", "{11574C00-81CD-4D41-9193-E56794330C3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A01C6476-B7C5-4BAB-B9CB-A3919021F713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A01C6476-B7C5-4BAB-B9CB-A3919021F713}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A01C6476-B7C5-4BAB-B9CB-A3919021F713}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A01C6476-B7C5-4BAB-B9CB-A3919021F713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11574C00-81CD-4D41-9193-E56794330C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11574C00-81CD-4D41-9193-E56794330C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11574C00-81CD-4D41-9193-E56794330C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11574C00-81CD-4D41-9193-E56794330C3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
