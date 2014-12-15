@@ -1,0 +1,4 @@
+F:\Development\C Sharp\Math\Methods\bin\Debug\Methods.dll
+F:\Development\C Sharp\Math\Methods\bin\Debug\Methods.pdb
+F:\Development\C Sharp\Math\Methods\obj\Debug\Methods.dll
+F:\Development\C Sharp\Math\Methods\obj\Debug\Methods.pdb
