@@ -11,19 +11,15 @@ namespace rotmgstats
             FConsole.Print("Hello");
             Console.Beep();
 
+            Random rand = new Random();
+
             for (int i = 0; i < 21; i++)
             {
-                Random rand = new Random();
                 int hp = 130;
 
-                hp = hp + rand.Next(25, 31);
-                FConsole.Sleep(10);
+                hp += rand.Next(25, 31);
                 FConsole.Print(hp);
 
-                using (var writer = new StreamWriter("rotmgstats_hp.output"))
-                {
-                    writer.WriteLine("[{0}] {1}", System.DateTime.Now, hp);
-                }
                 // Seems like this needs to be fixed lol http://gyazo.com/9a0b9fd6de02f576aff442b1dd095696.png
             }
          
