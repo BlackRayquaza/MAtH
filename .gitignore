@@ -4,11 +4,8 @@ ROTMG_Stats.pdb
 ROTMG_Stats.vshost.exe
 ROTMG_Stats.vshost.exe.config
 ROTMG_Stats.vshost.exe.manifest
-
 Functions.pdb
-
 Functions/obj/Debug/
 ROTMG_Stats/obj/Debug/
-
 add_all.cmd
 fix_stuff.cmd
