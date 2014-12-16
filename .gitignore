@@ -5,19 +5,7 @@ ROTMG_Stats.pdb
 ROTMG_Stats.vshost.exe
 ROTMG_Stats.vshost.exe.config
 ROTMG_Stats.vshost.exe.manifest
-
 Functions.pdb
-
-Functions/obj/Debug/
-ROTMG_Stats/obj/Debug/
-
-Functions.csproj.FileListAbsolute.txt
-Functions/obj/Debug/*.cs
-ROTMG_Stats/obj/Debug/*cs
-DesignTimeResolveAssemblyReferencesInput.cache
-ROTMG_Stats.csproj.FileListAbsolute.txt
-ROTMG_Stats.csprojResolveAssemblyReference.cache
-TempPE/
 
 add_all.cmd
 fix_stuff.cmd
