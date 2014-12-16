@@ -8,25 +8,46 @@ namespace rotmgstats
     {
         static void Main(string[] args)
         {
-            FConsole.Print("Hello");
-            Console.Beep();
+            string CurrentProgram;
+            bool DebugMode = true;
+            
+            CurrentProgram = Console.ReadLine().ToLower();
 
-            Random rand = new Random();
-
-            for (int i = 0; i < 21; i++)
+            if ((CurrentProgram == "" && DebugMode) || (CurrentProgram == "hp"))
             {
-                int hp = 130;
+                FConsole.Print("Hello");
+                Console.Beep();
 
-                hp += rand.Next(25, 31);
-                FConsole.Print(hp);
+                Random rand = new Random();
+                int hp = int.Parse(Console.ReadLine());
 
-                // Seems like this needs to be fixed lol http://gyazo.com/9a0b9fd6de02f576aff442b1dd095696.png
-            }
+                if (hp == 130)
+                {
+                    for (int i = 0; i < 21; i++)
+                    {
+                        hp += rand.Next(25, 31);
+                        FConsole.Print(hp);
+                    }
+                } else  {
+                    int min = int.Parse(Console.ReadLine());
+                    int max = int.Parse(Console.ReadLine());
+                    for (int i = 0; i < 21; i++)
+                    {
+                        hp += rand.Next(min, max);
+                        FConsole.Print(hp);
+                    }
+
+                }
          
-            FConsole.Sleep(2000); // 2 Second sleep before end
-            FConsole.Print(""); // Empty Line
-            FConsole.Print("Press 'ESC' to stop the application.");
-            Console.ReadLine(); // Waiting for close
+            FConsole.Sleep(2000);
+            FConsole.Print("");
+            FConsole.Print("Press 'ESC' or 'Enter' to stop the application.");
+            Console.ReadLine();
+            } else { 
+                FConsole.Print("No program was selected");
+                FConsole.Print("Press 'ESC' or 'Enter' to stop the application.");
+                Console.ReadLine();
+            }
         }
     }
 }
