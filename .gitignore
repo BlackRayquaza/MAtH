@@ -5,4 +5,4 @@
 
 add_all.cmd
 
-obj/Debug
+obj\Debug
