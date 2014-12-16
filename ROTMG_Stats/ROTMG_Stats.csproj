@@ -48,7 +48,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Methods\Functions.csproj">
+    <ProjectReference Include="..\Functions\Functions.csproj">
       <Project>{e5dd77ec-620d-4907-8685-445041c28536}</Project>
       <Name>Functions</Name>
     </ProjectReference>

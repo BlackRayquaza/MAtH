@@ -6,6 +6,6 @@ F:\Development\C Sharp\Math\ROTMG_Stats\..bin\ROTMG_Stats.exe.config
 F:\Development\C Sharp\Math\bin\ROTMG_Stats.exe.config
 F:\Development\C Sharp\Math\bin\ROTMG_Stats.exe
 F:\Development\C Sharp\Math\bin\ROTMG_Stats.pdb
-F:\Development\C Sharp\Math\ROTMG_Stats\obj\Debug\ROTMG_Stats.csprojResolveAssemblyReference.cache
 F:\Development\C Sharp\Math\ROTMG_Stats\obj\Debug\ROTMG_Stats.exe
 F:\Development\C Sharp\Math\ROTMG_Stats\obj\Debug\ROTMG_Stats.pdb
+F:\Development\C Sharp\Math\ROTMG_Stats\obj\Debug\ROTMG_Stats.csprojResolveAssemblyReference.cache

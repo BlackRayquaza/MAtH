@@ -8,9 +8,8 @@ namespace rotmgstats
     {
         static void Main(string[] args)
         {
-            Methods.CW("Hello");
+            FConsole.Print("Hello");
             Console.Beep();
-            Console.SetWindowSize(width: 65, height: 40);
 
             for (int i = 0; i < 21; i++)
             {
@@ -18,20 +17,20 @@ namespace rotmgstats
                 int hp = 130;
 
                 hp = hp + rand.Next(25, 31);
-                Methods.Sleep(10);
-                Methods.CW(hp);
+                FConsole.Sleep(10);
+                FConsole.Print(hp);
 
-                using (var fw = new StreamWriter(path: "rotmgstats_hp.output"))
+                using (var writer = new StreamWriter("rotmgstats_hp.output"))
                 {
-                    fw.WriteLine("[{0}] {1}", System.DateTime.Now, hp);
+                    writer.WriteLine("[{0}] {1}", System.DateTime.Now, hp);
                 }
                 // Seems like this needs to be fixed lol http://gyazo.com/9a0b9fd6de02f576aff442b1dd095696.png
             }
-
-            Methods.Sleep(2000); // End of ROTMG_Stats application.
-            Methods.CW("");
-            Methods.CW("Press 'ESC' to stop the application.");
-            Console.ReadLine();
+         
+            FConsole.Sleep(2000); // 2 Second sleep before end
+            FConsole.Print(""); // Empty Line
+            FConsole.Print("Press 'ESC' to stop the application.");
+            Console.ReadLine(); // Waiting for close
         }
     }
 }

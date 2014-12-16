@@ -1,7 +1,10 @@
 F:\Development\C Sharp\Math\Methods\bin\Debug\Methods.dll
 F:\Development\C Sharp\Math\Methods\bin\Debug\Methods.pdb
-F:\Development\C Sharp\Math\bin\Functions.dll
-F:\Development\C Sharp\Math\bin\Functions.pdb
 F:\Development\C Sharp\Math\Methods\obj\Debug\Functions.dll
 F:\Development\C Sharp\Math\Methods\obj\Debug\Functions.pdb
 F:\Development\C Sharp\Math\Methods\obj\Debug\Functions.csprojResolveAssemblyReference.cache
+F:\Development\C Sharp\Math\bin\Functions.dll
+F:\Development\C Sharp\Math\bin\Functions.pdb
+F:\Development\C Sharp\Math\Functions\obj\Debug\Functions.csprojResolveAssemblyReference.cache
+F:\Development\C Sharp\Math\Functions\obj\Debug\Functions.dll
+F:\Development\C Sharp\Math\Functions\obj\Debug\Functions.pdb
