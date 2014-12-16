@@ -2,7 +2,5 @@
 *.exe.config
 *.pdb
 *.manifest
-
-add_all.cmd
-
-obj\Debug
+*.cmd
+obj/
