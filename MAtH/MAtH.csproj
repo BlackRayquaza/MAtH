@@ -82,6 +82,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="rotmgStats.markdown" />
     <Compile Include="rotmgStats.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -35,28 +35,29 @@
             this.numMaxStat = new System.Windows.Forms.NumericUpDown();
             this.tileCalculate = new MetroFramework.Controls.MetroTile();
             this.boxLevels = new System.Windows.Forms.GroupBox();
-            this.labelLevel1 = new MetroFramework.Controls.MetroLabel();
-            this.labelLevel2 = new MetroFramework.Controls.MetroLabel();
-            this.labelLevel3 = new MetroFramework.Controls.MetroLabel();
-            this.labelLevel4 = new MetroFramework.Controls.MetroLabel();
-            this.labelLevel5 = new MetroFramework.Controls.MetroLabel();
-            this.labelLevel6 = new MetroFramework.Controls.MetroLabel();
-            this.labelLevel7 = new MetroFramework.Controls.MetroLabel();
-            this.labelLevel8 = new MetroFramework.Controls.MetroLabel();
-            this.labelLevel9 = new MetroFramework.Controls.MetroLabel();
-            this.labelLevel10 = new MetroFramework.Controls.MetroLabel();
-            this.labelLevel11 = new MetroFramework.Controls.MetroLabel();
-            this.labelLevel12 = new MetroFramework.Controls.MetroLabel();
-            this.labelLevel13 = new MetroFramework.Controls.MetroLabel();
-            this.labelLevel14 = new MetroFramework.Controls.MetroLabel();
-            this.labelLevel15 = new MetroFramework.Controls.MetroLabel();
-            this.labelLevel16 = new MetroFramework.Controls.MetroLabel();
-            this.labelLevel17 = new MetroFramework.Controls.MetroLabel();
-            this.labelLevel18 = new MetroFramework.Controls.MetroLabel();
-            this.labelLevel19 = new MetroFramework.Controls.MetroLabel();
             this.labelLevel20 = new MetroFramework.Controls.MetroLabel();
+            this.labelLevel19 = new MetroFramework.Controls.MetroLabel();
+            this.labelLevel18 = new MetroFramework.Controls.MetroLabel();
+            this.labelLevel17 = new MetroFramework.Controls.MetroLabel();
+            this.labelLevel16 = new MetroFramework.Controls.MetroLabel();
+            this.labelLevel15 = new MetroFramework.Controls.MetroLabel();
+            this.labelLevel14 = new MetroFramework.Controls.MetroLabel();
+            this.labelLevel13 = new MetroFramework.Controls.MetroLabel();
+            this.labelLevel12 = new MetroFramework.Controls.MetroLabel();
+            this.labelLevel11 = new MetroFramework.Controls.MetroLabel();
+            this.labelLevel10 = new MetroFramework.Controls.MetroLabel();
+            this.labelLevel9 = new MetroFramework.Controls.MetroLabel();
+            this.labelLevel8 = new MetroFramework.Controls.MetroLabel();
+            this.labelLevel7 = new MetroFramework.Controls.MetroLabel();
+            this.labelLevel6 = new MetroFramework.Controls.MetroLabel();
+            this.labelLevel5 = new MetroFramework.Controls.MetroLabel();
+            this.labelLevel4 = new MetroFramework.Controls.MetroLabel();
+            this.labelLevel3 = new MetroFramework.Controls.MetroLabel();
+            this.labelLevel2 = new MetroFramework.Controls.MetroLabel();
+            this.labelLevel1 = new MetroFramework.Controls.MetroLabel();
             this.labelStartValue = new MetroFramework.Controls.MetroLabel();
             this.numStartValue = new System.Windows.Forms.NumericUpDown();
+            this.tileExecution = new MetroFramework.Controls.MetroTile();
             ((System.ComponentModel.ISupportInitialize)(this.numMinStat)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numMaxStat)).BeginInit();
             this.boxLevels.SuspendLayout();
@@ -165,174 +166,21 @@
             this.boxLevels.Controls.Add(this.labelLevel3);
             this.boxLevels.Controls.Add(this.labelLevel2);
             this.boxLevels.Controls.Add(this.labelLevel1);
-            this.boxLevels.Location = new System.Drawing.Point(24, 120);
+            this.boxLevels.Location = new System.Drawing.Point(23, 119);
             this.boxLevels.Name = "boxLevels";
-            this.boxLevels.Size = new System.Drawing.Size(400, 142);
+            this.boxLevels.Size = new System.Drawing.Size(401, 142);
             this.boxLevels.TabIndex = 8;
             this.boxLevels.TabStop = false;
             this.boxLevels.Visible = false;
             // 
-            // labelLevel1
+            // labelLevel20
             // 
-            this.labelLevel1.AutoSize = true;
-            this.labelLevel1.Location = new System.Drawing.Point(6, 16);
-            this.labelLevel1.Name = "labelLevel1";
-            this.labelLevel1.Size = new System.Drawing.Size(56, 19);
-            this.labelLevel1.TabIndex = 0;
-            this.labelLevel1.Text = "Level 1: ";
-            // 
-            // labelLevel2
-            // 
-            this.labelLevel2.AutoSize = true;
-            this.labelLevel2.Location = new System.Drawing.Point(6, 35);
-            this.labelLevel2.Name = "labelLevel2";
-            this.labelLevel2.Size = new System.Drawing.Size(56, 19);
-            this.labelLevel2.TabIndex = 1;
-            this.labelLevel2.Text = "Level 2: ";
-            // 
-            // labelLevel3
-            // 
-            this.labelLevel3.AutoSize = true;
-            this.labelLevel3.Location = new System.Drawing.Point(6, 54);
-            this.labelLevel3.Name = "labelLevel3";
-            this.labelLevel3.Size = new System.Drawing.Size(56, 19);
-            this.labelLevel3.TabIndex = 2;
-            this.labelLevel3.Text = "Level 3: ";
-            // 
-            // labelLevel4
-            // 
-            this.labelLevel4.AutoSize = true;
-            this.labelLevel4.Location = new System.Drawing.Point(6, 73);
-            this.labelLevel4.Name = "labelLevel4";
-            this.labelLevel4.Size = new System.Drawing.Size(56, 19);
-            this.labelLevel4.TabIndex = 3;
-            this.labelLevel4.Text = "Level 4: ";
-            // 
-            // labelLevel5
-            // 
-            this.labelLevel5.AutoSize = true;
-            this.labelLevel5.Location = new System.Drawing.Point(6, 92);
-            this.labelLevel5.Name = "labelLevel5";
-            this.labelLevel5.Size = new System.Drawing.Size(56, 19);
-            this.labelLevel5.TabIndex = 4;
-            this.labelLevel5.Text = "Level 5: ";
-            // 
-            // labelLevel6
-            // 
-            this.labelLevel6.AutoSize = true;
-            this.labelLevel6.Location = new System.Drawing.Point(95, 16);
-            this.labelLevel6.Name = "labelLevel6";
-            this.labelLevel6.Size = new System.Drawing.Size(56, 19);
-            this.labelLevel6.TabIndex = 5;
-            this.labelLevel6.Text = "Level 6: ";
-            // 
-            // labelLevel7
-            // 
-            this.labelLevel7.AutoSize = true;
-            this.labelLevel7.Location = new System.Drawing.Point(95, 35);
-            this.labelLevel7.Name = "labelLevel7";
-            this.labelLevel7.Size = new System.Drawing.Size(56, 19);
-            this.labelLevel7.TabIndex = 6;
-            this.labelLevel7.Text = "Level 7: ";
-            // 
-            // labelLevel8
-            // 
-            this.labelLevel8.AutoSize = true;
-            this.labelLevel8.Location = new System.Drawing.Point(95, 54);
-            this.labelLevel8.Name = "labelLevel8";
-            this.labelLevel8.Size = new System.Drawing.Size(56, 19);
-            this.labelLevel8.TabIndex = 7;
-            this.labelLevel8.Text = "Level 8: ";
-            // 
-            // labelLevel9
-            // 
-            this.labelLevel9.AutoSize = true;
-            this.labelLevel9.Location = new System.Drawing.Point(95, 73);
-            this.labelLevel9.Name = "labelLevel9";
-            this.labelLevel9.Size = new System.Drawing.Size(56, 19);
-            this.labelLevel9.TabIndex = 8;
-            this.labelLevel9.Text = "Level 9: ";
-            // 
-            // labelLevel10
-            // 
-            this.labelLevel10.AutoSize = true;
-            this.labelLevel10.Location = new System.Drawing.Point(95, 92);
-            this.labelLevel10.Name = "labelLevel10";
-            this.labelLevel10.Size = new System.Drawing.Size(63, 19);
-            this.labelLevel10.TabIndex = 9;
-            this.labelLevel10.Text = "Level 10: ";
-            // 
-            // labelLevel11
-            // 
-            this.labelLevel11.AutoSize = true;
-            this.labelLevel11.Location = new System.Drawing.Point(195, 16);
-            this.labelLevel11.Name = "labelLevel11";
-            this.labelLevel11.Size = new System.Drawing.Size(63, 19);
-            this.labelLevel11.TabIndex = 10;
-            this.labelLevel11.Text = "Level 11: ";
-            // 
-            // labelLevel12
-            // 
-            this.labelLevel12.AutoSize = true;
-            this.labelLevel12.Location = new System.Drawing.Point(195, 35);
-            this.labelLevel12.Name = "labelLevel12";
-            this.labelLevel12.Size = new System.Drawing.Size(63, 19);
-            this.labelLevel12.TabIndex = 11;
-            this.labelLevel12.Text = "Level 12: ";
-            // 
-            // labelLevel13
-            // 
-            this.labelLevel13.AutoSize = true;
-            this.labelLevel13.Location = new System.Drawing.Point(195, 54);
-            this.labelLevel13.Name = "labelLevel13";
-            this.labelLevel13.Size = new System.Drawing.Size(63, 19);
-            this.labelLevel13.TabIndex = 12;
-            this.labelLevel13.Text = "Level 13: ";
-            // 
-            // labelLevel14
-            // 
-            this.labelLevel14.AutoSize = true;
-            this.labelLevel14.Location = new System.Drawing.Point(195, 73);
-            this.labelLevel14.Name = "labelLevel14";
-            this.labelLevel14.Size = new System.Drawing.Size(63, 19);
-            this.labelLevel14.TabIndex = 13;
-            this.labelLevel14.Text = "Level 14: ";
-            // 
-            // labelLevel15
-            // 
-            this.labelLevel15.AutoSize = true;
-            this.labelLevel15.Location = new System.Drawing.Point(195, 92);
-            this.labelLevel15.Name = "labelLevel15";
-            this.labelLevel15.Size = new System.Drawing.Size(63, 19);
-            this.labelLevel15.TabIndex = 14;
-            this.labelLevel15.Text = "Level 15: ";
-            // 
-            // labelLevel16
-            // 
-            this.labelLevel16.AutoSize = true;
-            this.labelLevel16.Location = new System.Drawing.Point(298, 16);
-            this.labelLevel16.Name = "labelLevel16";
-            this.labelLevel16.Size = new System.Drawing.Size(63, 19);
-            this.labelLevel16.TabIndex = 15;
-            this.labelLevel16.Text = "Level 16: ";
-            // 
-            // labelLevel17
-            // 
-            this.labelLevel17.AutoSize = true;
-            this.labelLevel17.Location = new System.Drawing.Point(298, 35);
-            this.labelLevel17.Name = "labelLevel17";
-            this.labelLevel17.Size = new System.Drawing.Size(63, 19);
-            this.labelLevel17.TabIndex = 16;
-            this.labelLevel17.Text = "Level 17: ";
-            // 
-            // labelLevel18
-            // 
-            this.labelLevel18.AutoSize = true;
-            this.labelLevel18.Location = new System.Drawing.Point(298, 54);
-            this.labelLevel18.Name = "labelLevel18";
-            this.labelLevel18.Size = new System.Drawing.Size(63, 19);
-            this.labelLevel18.TabIndex = 17;
-            this.labelLevel18.Text = "Level 18: ";
+            this.labelLevel20.AutoSize = true;
+            this.labelLevel20.Location = new System.Drawing.Point(298, 92);
+            this.labelLevel20.Name = "labelLevel20";
+            this.labelLevel20.Size = new System.Drawing.Size(63, 19);
+            this.labelLevel20.TabIndex = 19;
+            this.labelLevel20.Text = "Level 20: ";
             // 
             // labelLevel19
             // 
@@ -343,14 +191,167 @@
             this.labelLevel19.TabIndex = 18;
             this.labelLevel19.Text = "Level 19: ";
             // 
-            // labelLevel20
+            // labelLevel18
             // 
-            this.labelLevel20.AutoSize = true;
-            this.labelLevel20.Location = new System.Drawing.Point(298, 92);
-            this.labelLevel20.Name = "labelLevel20";
-            this.labelLevel20.Size = new System.Drawing.Size(63, 19);
-            this.labelLevel20.TabIndex = 19;
-            this.labelLevel20.Text = "Level 20: ";
+            this.labelLevel18.AutoSize = true;
+            this.labelLevel18.Location = new System.Drawing.Point(298, 54);
+            this.labelLevel18.Name = "labelLevel18";
+            this.labelLevel18.Size = new System.Drawing.Size(63, 19);
+            this.labelLevel18.TabIndex = 17;
+            this.labelLevel18.Text = "Level 18: ";
+            // 
+            // labelLevel17
+            // 
+            this.labelLevel17.AutoSize = true;
+            this.labelLevel17.Location = new System.Drawing.Point(298, 35);
+            this.labelLevel17.Name = "labelLevel17";
+            this.labelLevel17.Size = new System.Drawing.Size(63, 19);
+            this.labelLevel17.TabIndex = 16;
+            this.labelLevel17.Text = "Level 17: ";
+            // 
+            // labelLevel16
+            // 
+            this.labelLevel16.AutoSize = true;
+            this.labelLevel16.Location = new System.Drawing.Point(298, 16);
+            this.labelLevel16.Name = "labelLevel16";
+            this.labelLevel16.Size = new System.Drawing.Size(63, 19);
+            this.labelLevel16.TabIndex = 15;
+            this.labelLevel16.Text = "Level 16: ";
+            // 
+            // labelLevel15
+            // 
+            this.labelLevel15.AutoSize = true;
+            this.labelLevel15.Location = new System.Drawing.Point(195, 92);
+            this.labelLevel15.Name = "labelLevel15";
+            this.labelLevel15.Size = new System.Drawing.Size(63, 19);
+            this.labelLevel15.TabIndex = 14;
+            this.labelLevel15.Text = "Level 15: ";
+            // 
+            // labelLevel14
+            // 
+            this.labelLevel14.AutoSize = true;
+            this.labelLevel14.Location = new System.Drawing.Point(195, 73);
+            this.labelLevel14.Name = "labelLevel14";
+            this.labelLevel14.Size = new System.Drawing.Size(63, 19);
+            this.labelLevel14.TabIndex = 13;
+            this.labelLevel14.Text = "Level 14: ";
+            // 
+            // labelLevel13
+            // 
+            this.labelLevel13.AutoSize = true;
+            this.labelLevel13.Location = new System.Drawing.Point(195, 54);
+            this.labelLevel13.Name = "labelLevel13";
+            this.labelLevel13.Size = new System.Drawing.Size(63, 19);
+            this.labelLevel13.TabIndex = 12;
+            this.labelLevel13.Text = "Level 13: ";
+            // 
+            // labelLevel12
+            // 
+            this.labelLevel12.AutoSize = true;
+            this.labelLevel12.Location = new System.Drawing.Point(195, 35);
+            this.labelLevel12.Name = "labelLevel12";
+            this.labelLevel12.Size = new System.Drawing.Size(63, 19);
+            this.labelLevel12.TabIndex = 11;
+            this.labelLevel12.Text = "Level 12: ";
+            // 
+            // labelLevel11
+            // 
+            this.labelLevel11.AutoSize = true;
+            this.labelLevel11.Location = new System.Drawing.Point(195, 16);
+            this.labelLevel11.Name = "labelLevel11";
+            this.labelLevel11.Size = new System.Drawing.Size(63, 19);
+            this.labelLevel11.TabIndex = 10;
+            this.labelLevel11.Text = "Level 11: ";
+            // 
+            // labelLevel10
+            // 
+            this.labelLevel10.AutoSize = true;
+            this.labelLevel10.Location = new System.Drawing.Point(95, 92);
+            this.labelLevel10.Name = "labelLevel10";
+            this.labelLevel10.Size = new System.Drawing.Size(63, 19);
+            this.labelLevel10.TabIndex = 9;
+            this.labelLevel10.Text = "Level 10: ";
+            // 
+            // labelLevel9
+            // 
+            this.labelLevel9.AutoSize = true;
+            this.labelLevel9.Location = new System.Drawing.Point(95, 73);
+            this.labelLevel9.Name = "labelLevel9";
+            this.labelLevel9.Size = new System.Drawing.Size(56, 19);
+            this.labelLevel9.TabIndex = 8;
+            this.labelLevel9.Text = "Level 9: ";
+            // 
+            // labelLevel8
+            // 
+            this.labelLevel8.AutoSize = true;
+            this.labelLevel8.Location = new System.Drawing.Point(95, 54);
+            this.labelLevel8.Name = "labelLevel8";
+            this.labelLevel8.Size = new System.Drawing.Size(56, 19);
+            this.labelLevel8.TabIndex = 7;
+            this.labelLevel8.Text = "Level 8: ";
+            // 
+            // labelLevel7
+            // 
+            this.labelLevel7.AutoSize = true;
+            this.labelLevel7.Location = new System.Drawing.Point(95, 35);
+            this.labelLevel7.Name = "labelLevel7";
+            this.labelLevel7.Size = new System.Drawing.Size(56, 19);
+            this.labelLevel7.TabIndex = 6;
+            this.labelLevel7.Text = "Level 7: ";
+            // 
+            // labelLevel6
+            // 
+            this.labelLevel6.AutoSize = true;
+            this.labelLevel6.Location = new System.Drawing.Point(95, 16);
+            this.labelLevel6.Name = "labelLevel6";
+            this.labelLevel6.Size = new System.Drawing.Size(56, 19);
+            this.labelLevel6.TabIndex = 5;
+            this.labelLevel6.Text = "Level 6: ";
+            // 
+            // labelLevel5
+            // 
+            this.labelLevel5.AutoSize = true;
+            this.labelLevel5.Location = new System.Drawing.Point(6, 92);
+            this.labelLevel5.Name = "labelLevel5";
+            this.labelLevel5.Size = new System.Drawing.Size(56, 19);
+            this.labelLevel5.TabIndex = 4;
+            this.labelLevel5.Text = "Level 5: ";
+            // 
+            // labelLevel4
+            // 
+            this.labelLevel4.AutoSize = true;
+            this.labelLevel4.Location = new System.Drawing.Point(6, 73);
+            this.labelLevel4.Name = "labelLevel4";
+            this.labelLevel4.Size = new System.Drawing.Size(56, 19);
+            this.labelLevel4.TabIndex = 3;
+            this.labelLevel4.Text = "Level 4: ";
+            // 
+            // labelLevel3
+            // 
+            this.labelLevel3.AutoSize = true;
+            this.labelLevel3.Location = new System.Drawing.Point(6, 54);
+            this.labelLevel3.Name = "labelLevel3";
+            this.labelLevel3.Size = new System.Drawing.Size(56, 19);
+            this.labelLevel3.TabIndex = 2;
+            this.labelLevel3.Text = "Level 3: ";
+            // 
+            // labelLevel2
+            // 
+            this.labelLevel2.AutoSize = true;
+            this.labelLevel2.Location = new System.Drawing.Point(6, 35);
+            this.labelLevel2.Name = "labelLevel2";
+            this.labelLevel2.Size = new System.Drawing.Size(56, 19);
+            this.labelLevel2.TabIndex = 1;
+            this.labelLevel2.Text = "Level 2: ";
+            // 
+            // labelLevel1
+            // 
+            this.labelLevel1.AutoSize = true;
+            this.labelLevel1.Location = new System.Drawing.Point(6, 16);
+            this.labelLevel1.Name = "labelLevel1";
+            this.labelLevel1.Size = new System.Drawing.Size(56, 19);
+            this.labelLevel1.TabIndex = 0;
+            this.labelLevel1.Text = "Level 1: ";
             // 
             // labelStartValue
             // 
@@ -382,11 +383,26 @@
             0});
             this.numStartValue.Visible = false;
             // 
+            // tileExecution
+            // 
+            this.tileExecution.ActiveControl = null;
+            this.tileExecution.Location = new System.Drawing.Point(23, 267);
+            this.tileExecution.Name = "tileExecution";
+            this.tileExecution.Size = new System.Drawing.Size(401, 23);
+            this.tileExecution.Style = MetroFramework.MetroColorStyle.Silver;
+            this.tileExecution.TabIndex = 11;
+            this.tileExecution.Text = "0 ms";
+            this.tileExecution.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tileExecution.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.tileExecution.UseSelectable = true;
+            this.tileExecution.Visible = false;
+            // 
             // rotmgStats
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(451, 285);
+            this.ClientSize = new System.Drawing.Size(447, 305);
+            this.Controls.Add(this.tileExecution);
             this.Controls.Add(this.numStartValue);
             this.Controls.Add(this.labelStartValue);
             this.Controls.Add(this.boxLevels);
@@ -440,5 +456,6 @@
         private MetroFramework.Controls.MetroLabel labelLevel1;
         private MetroFramework.Controls.MetroLabel labelStartValue;
         private System.Windows.Forms.NumericUpDown numStartValue;
+        private MetroFramework.Controls.MetroTile tileExecution;
     }
 }

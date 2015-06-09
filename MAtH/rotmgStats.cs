@@ -1,5 +1,6 @@
 ﻿using MetroFramework.Forms;
 using System;
+using System.Diagnostics;
 
 namespace MAtH
 {
@@ -31,13 +32,16 @@ namespace MAtH
                 numMinStat.Visible = false;
                 numStartValue.Visible = false;
                 tileCalculate.Visible = false;
+                tileExecution.Visible = true;
             }
         }
 
         private void tileCalculate_Click(object sender, EventArgs e)
         {
+            Stopwatch sw = new Stopwatch();
             Random random = new Random();
             int stat = (int)numStartValue.Value, min = (int)numMinStat.Value, max = (int)numMaxStat.Value;
+            sw.Start();
             for (int i = 1; i <= 20; i++)
             {
                 switch (i)
@@ -142,6 +146,9 @@ namespace MAtH
                         break;
                 }
             }
+            tileExecution.Text = String.Format("Execution time: {0} ms", sw.ElapsedMilliseconds);
+            sw.Stop();
+            tileExecution.Visible = true;
             boxLevels.Visible = true;
         }
     }
