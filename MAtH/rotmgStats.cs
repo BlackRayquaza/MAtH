@@ -16,16 +16,20 @@ namespace MAtH
             {
                 labelMaxStat.Visible = true;
                 labelMinStat.Visible = true;
+                labelStartValue.Visible = true;
                 numMaxStat.Visible = true;
                 numMinStat.Visible = true;
+                numStartValue.Visible = true;
                 tileCalculate.Visible = true;
             }
             else
             {
                 labelMaxStat.Visible = false;
                 labelMinStat.Visible = false;
+                labelStartValue.Visible = false;
                 numMaxStat.Visible = false;
                 numMinStat.Visible = false;
+                numStartValue.Visible = false;
                 tileCalculate.Visible = false;
             }
         }
@@ -33,13 +37,12 @@ namespace MAtH
         private void tileCalculate_Click(object sender, EventArgs e)
         {
             Random random = new Random();
-            int stat = 0, min = (int)numMinStat.Value, max = (int)numMaxStat.Value;
+            int stat = (int)numStartValue.Value, min = (int)numMinStat.Value, max = (int)numMaxStat.Value;
             for (int i = 1; i <= 20; i++)
             {
                 switch (i)
                 {
                     case 1:
-                        stat += random.Next(min, max);
                         labelLevel1.Text = String.Format("Level {0}: ", i) + stat;
                         break;
 

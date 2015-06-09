@@ -56,9 +56,11 @@
             this.labelLevel19 = new MetroFramework.Controls.MetroLabel();
             this.labelLevel20 = new MetroFramework.Controls.MetroLabel();
             this.labelStartValue = new MetroFramework.Controls.MetroLabel();
+            this.numStartValue = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.numMinStat)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numMaxStat)).BeginInit();
             this.boxLevels.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numStartValue)).BeginInit();
             this.SuspendLayout();
             // 
             // boxStats
@@ -83,7 +85,7 @@
             // labelMinStat
             // 
             this.labelMinStat.AutoSize = true;
-            this.labelMinStat.Location = new System.Drawing.Point(190, 63);
+            this.labelMinStat.Location = new System.Drawing.Point(211, 64);
             this.labelMinStat.Name = "labelMinStat";
             this.labelMinStat.Size = new System.Drawing.Size(34, 19);
             this.labelMinStat.TabIndex = 3;
@@ -92,9 +94,9 @@
             // 
             // numMinStat
             // 
-            this.numMinStat.Location = new System.Drawing.Point(230, 64);
+            this.numMinStat.Location = new System.Drawing.Point(251, 64);
             this.numMinStat.Name = "numMinStat";
-            this.numMinStat.Size = new System.Drawing.Size(83, 20);
+            this.numMinStat.Size = new System.Drawing.Size(62, 20);
             this.numMinStat.TabIndex = 4;
             this.numMinStat.Value = new decimal(new int[] {
             1,
@@ -353,17 +355,39 @@
             // labelStartValue
             // 
             this.labelStartValue.AutoSize = true;
-            this.labelStartValue.Location = new System.Drawing.Point(113, 64);
+            this.labelStartValue.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.labelStartValue.Location = new System.Drawing.Point(113, 63);
             this.labelStartValue.Name = "labelStartValue";
-            this.labelStartValue.Size = new System.Drawing.Size(83, 19);
+            this.labelStartValue.Size = new System.Drawing.Size(36, 19);
             this.labelStartValue.TabIndex = 9;
-            this.labelStartValue.Text = "metroLabel1";
+            this.labelStartValue.Text = "Start";
+            this.labelStartValue.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelStartValue.Visible = false;
+            // 
+            // numStartValue
+            // 
+            this.numStartValue.Location = new System.Drawing.Point(155, 64);
+            this.numStartValue.Maximum = new decimal(new int[] {
+            770,
+            0,
+            0,
+            0});
+            this.numStartValue.Name = "numStartValue";
+            this.numStartValue.Size = new System.Drawing.Size(50, 20);
+            this.numStartValue.TabIndex = 10;
+            this.numStartValue.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numStartValue.Visible = false;
             // 
             // rotmgStats
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(451, 285);
+            this.Controls.Add(this.numStartValue);
             this.Controls.Add(this.labelStartValue);
             this.Controls.Add(this.boxLevels);
             this.Controls.Add(this.tileCalculate);
@@ -379,6 +403,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.numMaxStat)).EndInit();
             this.boxLevels.ResumeLayout(false);
             this.boxLevels.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numStartValue)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -414,5 +439,6 @@
         private MetroFramework.Controls.MetroLabel labelLevel2;
         private MetroFramework.Controls.MetroLabel labelLevel1;
         private MetroFramework.Controls.MetroLabel labelStartValue;
+        private System.Windows.Forms.NumericUpDown numStartValue;
     }
 }
