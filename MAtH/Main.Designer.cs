@@ -28,12 +28,57 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.groupRotMG = new System.Windows.Forms.GroupBox();
+            this.rotmgTile1 = new MetroFramework.Controls.MetroTile();
+            this.groupRotMG.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // groupRotMG
+            // 
+            this.groupRotMG.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupRotMG.Controls.Add(this.rotmgTile1);
+            this.groupRotMG.Location = new System.Drawing.Point(23, 63);
+            this.groupRotMG.Name = "groupRotMG";
+            this.groupRotMG.Size = new System.Drawing.Size(303, 76);
+            this.groupRotMG.TabIndex = 0;
+            this.groupRotMG.TabStop = false;
+            this.groupRotMG.Text = "Realm of the Mad God";
+            // 
+            // rotmgTile1
+            // 
+            this.rotmgTile1.ActiveControl = null;
+            this.rotmgTile1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.rotmgTile1.Location = new System.Drawing.Point(6, 19);
+            this.rotmgTile1.Name = "rotmgTile1";
+            this.rotmgTile1.Size = new System.Drawing.Size(60, 50);
+            this.rotmgTile1.Style = MetroFramework.MetroColorStyle.Magenta;
+            this.rotmgTile1.TabIndex = 0;
+            this.rotmgTile1.Text = "Tile 1";
+            this.rotmgTile1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rotmgTile1.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.rotmgTile1.UseSelectable = true;
+            this.rotmgTile1.Click += new System.EventHandler(this.rotmgTile1_Click);
+            // 
+            // Main
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(349, 241);
+            this.Controls.Add(this.groupRotMG);
+            this.Name = "Main";
+            this.Style = MetroFramework.MetroColorStyle.Magenta;
+            this.Text = "MAtH";
+            this.groupRotMG.ResumeLayout(false);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.GroupBox groupRotMG;
+        private MetroFramework.Controls.MetroTile rotmgTile1;
     }
 }
 
