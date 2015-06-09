@@ -12,7 +12,8 @@ namespace MAtH
 
         private void rotmgTile1_Click(object sender, EventArgs e)
         {
-            
+            rotmgStats form = new rotmgStats();
+            form.ShowDialog();
         }
     }
 }

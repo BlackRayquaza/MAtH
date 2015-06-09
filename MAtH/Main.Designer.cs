@@ -55,7 +55,7 @@
             this.rotmgTile1.Size = new System.Drawing.Size(60, 50);
             this.rotmgTile1.Style = MetroFramework.MetroColorStyle.Magenta;
             this.rotmgTile1.TabIndex = 0;
-            this.rotmgTile1.Text = "Tile 1";
+            this.rotmgTile1.Text = "Stats";
             this.rotmgTile1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.rotmgTile1.Theme = MetroFramework.MetroThemeStyle.Light;
             this.rotmgTile1.UseSelectable = true;
