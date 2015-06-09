@@ -16,7 +16,6 @@ namespace rotmgstats
 
             if ((CurrentProgram == "" && DebugMode) || (CurrentProgram == "hp"))
             {
-                FConsole.Print("Hello");
                 Console.Beep();
 
                 Random rand = new Random();
