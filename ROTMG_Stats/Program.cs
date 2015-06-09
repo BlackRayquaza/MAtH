@@ -1,17 +1,16 @@
 ﻿using System;
-using System.IO;
-using Functions;
+using System.Threading;
 
 namespace rotmgstats
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             string CurrentProgram;
             bool DebugMode = true;
-            
-            FConsole.Print("What program do you wanna run?");
+
+            Console.WriteLine("What program do you wanna run?");
             CurrentProgram = Console.ReadLine().ToLower();
 
             if ((CurrentProgram == "" && DebugMode) || (CurrentProgram == "hp"))
@@ -19,8 +18,8 @@ namespace rotmgstats
                 Console.Beep();
 
                 Random rand = new Random();
-                
-                FConsole.Print("How much HP?");
+
+                Console.WriteLine("How much HP?");
                 int hp = int.Parse(Console.ReadLine());
 
                 if (hp == 130)
@@ -28,30 +27,32 @@ namespace rotmgstats
                     for (int i = 0; i < 21; i++)
                     {
                         hp += rand.Next(25, 31);
-                        FConsole.Print(hp);
+                        Console.WriteLine(hp);
                     }
-                } else  {
-
-                    FConsole.Print("Min?");
+                }
+                else
+                {
+                    Console.WriteLine("Min?");
                     int min = int.Parse(Console.ReadLine());
-                    FConsole.Print("Max?");
+                    Console.WriteLine("Max?");
                     int max = int.Parse(Console.ReadLine());
 
                     for (int i = 0; i < 21; i++)
                     {
                         hp += rand.Next(min, max);
-                        FConsole.Print(hp);
+                        Console.WriteLine(hp);
                     }
-
                 }
-         
-            FConsole.Sleep(2000);
-            FConsole.Print("");
-            FConsole.Print("Press 'ESC' or 'Enter' to stop the application.");
-            Console.ReadLine();
-            } else { 
-                FConsole.Print("No program was selected");
-                FConsole.Print("Press 'ESC' or 'Enter' to stop the application.");
+
+                Thread.Sleep(2000);
+                Console.WriteLine("");
+                Console.WriteLine("Press 'ESC' or 'Enter' to stop the application.");
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine("No program was selected");
+                Console.WriteLine("Press 'ESC' or 'Enter' to stop the application.");
                 Console.ReadLine();
             }
         }
