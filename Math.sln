@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ROTMG_Stats", "ROTMG_Stats\ROTMG_Stats.csproj", "{11574C00-81CD-4D41-9193-E56794330C3F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DE3EBD85-E1D9-4F4C-B26F-38B93642A848}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
@@ -20,10 +18,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{11574C00-81CD-4D41-9193-E56794330C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{11574C00-81CD-4D41-9193-E56794330C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{11574C00-81CD-4D41-9193-E56794330C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{11574C00-81CD-4D41-9193-E56794330C3F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9B0EA227-36F2-4389-A85A-10B334763E1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9B0EA227-36F2-4389-A85A-10B334763E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B0EA227-36F2-4389-A85A-10B334763E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
