@@ -37,7 +37,8 @@
             // 
             // groupRotMG
             // 
-            this.groupRotMG.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.groupRotMG.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupRotMG.Controls.Add(this.rotmgTile1);
             this.groupRotMG.Location = new System.Drawing.Point(23, 63);
@@ -50,8 +51,9 @@
             // rotmgTile1
             // 
             this.rotmgTile1.ActiveControl = null;
-            this.rotmgTile1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+            this.rotmgTile1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.rotmgTile1.Location = new System.Drawing.Point(6, 19);
             this.rotmgTile1.Name = "rotmgTile1";
             this.rotmgTile1.Size = new System.Drawing.Size(291, 50);
@@ -65,6 +67,7 @@
             // 
             // labelMoreLater
             // 
+            this.labelMoreLater.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.labelMoreLater.AutoSize = true;
             this.labelMoreLater.Location = new System.Drawing.Point(23, 143);
             this.labelMoreLater.Name = "labelMoreLater";
@@ -74,6 +77,7 @@
             // 
             // htmlLabel1
             // 
+            this.htmlLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.htmlLabel1.AutoScroll = true;
             this.htmlLabel1.AutoScrollMinSize = new System.Drawing.Size(72, 23);
             this.htmlLabel1.AutoSize = false;
@@ -93,6 +97,7 @@
             this.Controls.Add(this.labelMoreLater);
             this.Controls.Add(this.groupRotMG);
             this.Name = "Main";
+            this.ShadowType = MetroFramework.Forms.MetroFormShadowType.SystemShadow;
             this.Style = MetroFramework.MetroColorStyle.Magenta;
             this.Text = "MAtH";
             this.groupRotMG.ResumeLayout(false);

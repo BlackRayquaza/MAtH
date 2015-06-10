@@ -67,7 +67,7 @@ if (i == 14)
     labelLevel14.Text = String.Format("Level {0}: ", i) + stat;
 }
 if (i == 15)
- {
+{
     stat += random.Next(min, max);
     labelLevel15.Text = String.Format("Level {0}: ", i) + stat;
 }

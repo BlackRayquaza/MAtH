@@ -118,6 +118,8 @@
             // 
             // numMaxStat
             // 
+            this.numMaxStat.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.numMaxStat.Location = new System.Drawing.Point(362, 64);
             this.numMaxStat.Name = "numMaxStat";
             this.numMaxStat.Size = new System.Drawing.Size(62, 20);
@@ -132,6 +134,8 @@
             // tileCalculate
             // 
             this.tileCalculate.ActiveControl = null;
+            this.tileCalculate.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tileCalculate.Location = new System.Drawing.Point(23, 90);
             this.tileCalculate.Name = "tileCalculate";
             this.tileCalculate.Size = new System.Drawing.Size(401, 23);
@@ -146,6 +150,9 @@
             // 
             // boxLevels
             // 
+            this.boxLevels.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.boxLevels.Controls.Add(this.labelLevel20);
             this.boxLevels.Controls.Add(this.labelLevel19);
             this.boxLevels.Controls.Add(this.labelLevel18);
@@ -168,13 +175,16 @@
             this.boxLevels.Controls.Add(this.labelLevel1);
             this.boxLevels.Location = new System.Drawing.Point(23, 119);
             this.boxLevels.Name = "boxLevels";
-            this.boxLevels.Size = new System.Drawing.Size(401, 142);
+            this.boxLevels.Size = new System.Drawing.Size(401, 119);
             this.boxLevels.TabIndex = 8;
             this.boxLevels.TabStop = false;
             this.boxLevels.Visible = false;
             // 
             // labelLevel20
             // 
+            this.labelLevel20.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.labelLevel20.AutoSize = true;
             this.labelLevel20.Location = new System.Drawing.Point(298, 92);
             this.labelLevel20.Name = "labelLevel20";
@@ -184,6 +194,8 @@
             // 
             // labelLevel19
             // 
+            this.labelLevel19.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.labelLevel19.AutoSize = true;
             this.labelLevel19.Location = new System.Drawing.Point(298, 73);
             this.labelLevel19.Name = "labelLevel19";
@@ -193,6 +205,8 @@
             // 
             // labelLevel18
             // 
+            this.labelLevel18.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.labelLevel18.AutoSize = true;
             this.labelLevel18.Location = new System.Drawing.Point(298, 54);
             this.labelLevel18.Name = "labelLevel18";
@@ -202,6 +216,8 @@
             // 
             // labelLevel17
             // 
+            this.labelLevel17.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.labelLevel17.AutoSize = true;
             this.labelLevel17.Location = new System.Drawing.Point(298, 35);
             this.labelLevel17.Name = "labelLevel17";
@@ -211,6 +227,8 @@
             // 
             // labelLevel16
             // 
+            this.labelLevel16.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.labelLevel16.AutoSize = true;
             this.labelLevel16.Location = new System.Drawing.Point(298, 16);
             this.labelLevel16.Name = "labelLevel16";
@@ -220,6 +238,8 @@
             // 
             // labelLevel15
             // 
+            this.labelLevel15.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.labelLevel15.AutoSize = true;
             this.labelLevel15.Location = new System.Drawing.Point(195, 92);
             this.labelLevel15.Name = "labelLevel15";
@@ -265,6 +285,8 @@
             // 
             // labelLevel10
             // 
+            this.labelLevel10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.labelLevel10.AutoSize = true;
             this.labelLevel10.Location = new System.Drawing.Point(95, 92);
             this.labelLevel10.Name = "labelLevel10";
@@ -310,6 +332,8 @@
             // 
             // labelLevel5
             // 
+            this.labelLevel5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.labelLevel5.AutoSize = true;
             this.labelLevel5.Location = new System.Drawing.Point(6, 92);
             this.labelLevel5.Name = "labelLevel5";
@@ -386,7 +410,9 @@
             // tileExecution
             // 
             this.tileExecution.ActiveControl = null;
-            this.tileExecution.Location = new System.Drawing.Point(23, 267);
+            this.tileExecution.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tileExecution.Location = new System.Drawing.Point(23, 244);
             this.tileExecution.Name = "tileExecution";
             this.tileExecution.Size = new System.Drawing.Size(401, 23);
             this.tileExecution.Style = MetroFramework.MetroColorStyle.Silver;
@@ -401,7 +427,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(447, 305);
+            this.ClientSize = new System.Drawing.Size(447, 282);
             this.Controls.Add(this.tileExecution);
             this.Controls.Add(this.numStartValue);
             this.Controls.Add(this.labelStartValue);
@@ -413,6 +439,8 @@
             this.Controls.Add(this.labelMinStat);
             this.Controls.Add(this.boxStats);
             this.Name = "rotmgStats";
+            this.Resizable = false;
+            this.ShadowType = MetroFramework.Forms.MetroFormShadowType.SystemShadow;
             this.Style = MetroFramework.MetroColorStyle.Magenta;
             this.Text = "Realm of the Mad God: Stats";
             ((System.ComponentModel.ISupportInitialize)(this.numMinStat)).EndInit();
